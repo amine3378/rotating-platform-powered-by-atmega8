@@ -7,7 +7,7 @@
 #define RED      _BV(PB2)
 #define YELLOW   _BV(PB3)
 
-#define DELAY 60` /* milliseconds between steps */
+#define DELAY 60 /* milliseconds between steps */
 
 int main(void)
 {

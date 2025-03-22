@@ -12,7 +12,6 @@
 #define RW PC1                    /* Define Read/Write signal pin */
 #define EN PC2                    /* Define Enable signal pin */
 
-#define DELAY  500               /* milliseconds between steps */
 
 /* Function Declarations */
 void LCD_Command(unsigned char cmnd);
