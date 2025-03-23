@@ -8,7 +8,7 @@ F_CPU = 16000000
 
 # Compiler and tools
 CC = avr-gcc
-CFLAGS = -Wall -Os -mmcu=$(MCU) -DF_CPU=$(F_CPU)
+CFLAGS = -Wall -Os -mmcu=$(MCU) -DF_CPU=$(F_CPU) -std=c99
 
 # Output file name
 TARGET = main
